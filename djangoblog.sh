@@ -1,4 +1,5 @@
-cp uwsgi.ini /etc/nginx/uwsgi.ini
-cp nginx.conf /etc/nginx/nginx.conf
-uwsgi --ini /etc/nginx/uwsgi.ini
-nginx -c /etc/nginx/nginx.conf
+cp uwsgi.ini /usr/local/nginx/conf/uwsgi.ini
+mv /usr/local/nginx/conf/nginx.conf /usr/local/nginx/conf/nginx.conf.bak
+cp nginx.conf /usr/local/nginx/conf/nginx.conf
+uwsgi --ini /usr/local/conf/nginx/uwsgi.ini
+nginx -c /usr/local/nginx/conf/nginx.conf

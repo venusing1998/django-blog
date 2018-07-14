@@ -25,7 +25,7 @@ SECRET_KEY = '0!s-vw8okay5*eicjnt00$9)ka!w!e&4d40921#%u1ozw*v&hb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["www.amazinghub.top", "68.168.137.242", "127.0.0.1"]
+ALLOWED_HOSTS = ["www.amazinghub.top", "68.168.137.242", "127.0.0.1", "amazinghub.top",]
 
 
 # Application definition
